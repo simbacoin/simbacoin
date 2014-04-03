@@ -2756,7 +2756,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "The day Simbacoin was created."
+        const char* pszTimestamp = "The day Simbacoin was created.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
